@@ -1,0 +1,36 @@
+customers-service/orders-service
+
+Instalar dependencias
+npm i
+
+devDependencies
+npm i nodemon -D
+
+dependencies
+npm i express
+npm i dotenv
+npm i mongoose
+npm i validator
+
+npm i nodemon -D
+npm i express dotenv mongoose validator
+
+api-gateway
+
+Instalar dependencias
+npm i
+
+devDependencies
+npm i nodemon -D
+
+dependencies
+npm i express
+npm i http-proxy-middleware
+
+npm i nodemon -D
+npm i express http-proxy-middleware dotenv
+
+Microservicios con NodeJS
+customers-service -> microservicio de clientes
+orders-service -> microservicio de ordenes de los clientes
+api-gateway -> punto central que redirige solicitudes a los microservicios
