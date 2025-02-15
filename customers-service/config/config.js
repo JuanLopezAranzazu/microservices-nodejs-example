@@ -2,7 +2,7 @@ require("dotenv").config();
 
 const config = {
   env: process.env.NODE_ENV || "test",
-  port: process.env.PORT || 3000,
+  port: process.env.PORT || 3001,
   secretKey: process.env.SECRET_KEY,
   jwtExpirationTime: process.env.JWT_EXPIRATION_TIME || "1h",
   dbMongoUri:
